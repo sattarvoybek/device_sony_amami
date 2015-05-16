@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # Inherit the fusion-common definitions
-$(call inherit-product, device/sony/rhine-common/rhine.mk)
+$(call inherit-product, device/zte/rhine-common/rhine.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/sony/amami/overlay
+DEVICE_PACKAGE_OVERLAYS += device/zte/nx404h/overlay
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
 
 # USB function switching
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
+    $(LOCAL_PATH)/rootdir/init.nubia.usb.rc:root/init.nubia.usb.rc
 
 # Vold
 PRODUCT_COPY_FILES += \
@@ -51,4 +51,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/amami/amami-vendor.mk)
+$(call inherit-product, vendor/zte/nx404h/nx404h-vendor.mk)
