@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,17 +13,17 @@
 # limitations under the License.
 
 # inherit from the common rhine definitions
-include device/sony/rhine-common/BoardConfigCommon.mk
+include device/zte/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
-#-include vendor/sony/amami/BoardConfigVendor.mk
+#-include vendor/zte/nx404h/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := D5503,amami,anami
+TARGET_OTA_ASSERT_DEVICE := NX404H,u9180,nx404h
 
-TARGET_SPECIFIC_HEADER_PATH += device/sony/amami/include
+TARGET_SPECIFIC_HEADER_PATH += device/zte/nx404h/include
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/amami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/zte/nx404h/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := slim_rhine_amami_row_defconfig
