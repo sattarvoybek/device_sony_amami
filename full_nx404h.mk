@@ -24,14 +24,14 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Common Sony Resources
-$(call inherit-product, device/sony/common/resources.mk)
+$(call inherit-product, device/zte/common/resources.mk)
 
 # Inherit from amami device
-$(call inherit-product, device/sony/amami/amami.mk)
+$(call inherit-product, device/zte/nx404h/nx404h.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_amami
-PRODUCT_DEVICE := amami
-PRODUCT_BRAND := Sony
-PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := Xperia Z1 Compact
+PRODUCT_NAME := full_nx404h
+PRODUCT_DEVICE := nx404h
+PRODUCT_BRAND := zte
+PRODUCT_MANUFACTURER := zte
+PRODUCT_MODEL := NUbia Z5s Mimi
