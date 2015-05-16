@@ -1,7 +1,7 @@
 [
   {
-    "repository": "SlimRoms/device_sony_rhine-common",
-    "target_path": "device/sony/rhine-common",
+    "repository": "SlimRoms/device_zte_rhine-common",
+    "target_path": "device/zte/rhine-common",
     "branch": "kk4.4"
   },
   {
@@ -10,18 +10,18 @@
     "branch": "kk4.4"
   },
   {
-    "repository": "SlimRoms/device_sony_common",
-    "target_path": "device/sony/common",
+    "repository": "SlimRoms/device_zte_common",
+    "target_path": "device/zte/common",
     "branch": "kk4.4"
   },
   {
-    "repository": "SlimRoms/device_sony_qcom-common",
-    "target_path": "device/sony/qcom-common",
+    "repository": "SlimRoms/device_zte_qcom-common",
+    "target_path": "device/zte/qcom-common",
     "branch": "kk4.4"
   },
   {
-    "repository": "SlimRoms/kernel_sony_msm8974",
-    "target_path": "kernel/sony/msm8974",
+    "repository": "SlimRoms/kernel_zte_nx404h",
+    "target_path": "kernel/zte/nx404h",
     "branch": "kk4.4"
   },
   {
